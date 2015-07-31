@@ -1,6 +1,6 @@
 <?php
 
-namespace roman444uk\magnificPopup;
+namespace corpsepk\magnificPopup;
 
 use yii;
 use yii\web\JsExpression;
