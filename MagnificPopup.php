@@ -55,7 +55,7 @@ class MagnificPopup extends \yii\base\Widget
     /**
      * @var string asset class
      */
-    public $asset = '\roman444uk\magnificPopup\MagnificPopupAsset';
+    public $asset = '\corpsepk\magnificPopup\MagnificPopupAsset';
     
     /**
      * Run this widget.
