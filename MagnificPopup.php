@@ -22,7 +22,7 @@ class MagnificPopup extends \yii\base\Widget
     public $options = array();
     
     /**
-     * @var type 
+     * @var array
      */
     public $defaultOptions = array(
         'type' => 'image'
@@ -41,14 +41,13 @@ class MagnificPopup extends \yii\base\Widget
     public $effect;
     
     /**
-     * Alias for 'type' in option;
+     * Alias for 'type' in option:
+     * - ajax
+     * - iframe
+     * - image
+     * - inline
      * 
-     * <li>ajax</li>
-     * <li>iframe</li>
-     * <li>image</li>
-     * <li>inline</li>
-     * 
-     * @var type string
+     * @var string
      */
     public $type;
     
