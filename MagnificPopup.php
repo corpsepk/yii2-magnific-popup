@@ -19,14 +19,14 @@ class MagnificPopup extends \yii\base\Widget
      * @see http://dimsemenov.com/plugins/magnific-popup/documentation.html
      * @var array Magnific-Popup Option
      */
-    public $options = array();
+    public $options = [];
     
     /**
      * @var array
      */
-    public $defaultOptions = array(
+    public $defaultOptions = [
         'type' => 'image'
-    );
+    ];
     /**
      * Language for internationalization.
      * Null for auto detect.
@@ -68,15 +68,15 @@ class MagnificPopup extends \yii\base\Widget
         if ($this->effect && in_array($this->effect, $effectList)) {
             $this->defaultOptions['mainClass'] = 'mfp-' . $this->effect;
             $this->defaultOptions['removalDelay'] = 500;
-            $this->defaultOptions['callbacks'] = array(
+            $this->defaultOptions['callbacks'] = [
                 'beforeOpen' => new JsExpression("function() {this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');}")
-            );
+            ];
             if ($this->effect == 'with-zoom') {
-                $this->defaultOptions = array_merge($this->defaultOptions, array(
-                    'zoom' => array(
+                $this->defaultOptions = array_merge($this->defaultOptions, [
+                    'zoom' => [
                         'enabled' => true,
-                    ),
-                ));
+                    ],
+                ]);
             }
         }
         
