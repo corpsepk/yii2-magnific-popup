@@ -1,21 +1,16 @@
 {
     "name": "corpsepk/yii2-magnific-popup",
-    "description": "JQuery magnific popup widget",
-    "version": "dev-master",
+    "description": "MagnificPopup widget for Yii2",
+    "type": "yii2-extension",
     "keywords": [
-        "roman444uk",
-        "yii",
         "yii2",
-        "yii 2",
-        "jquery",
         "magnific popup"
     ],
-    "type": "yii2-extension",
     "homepage": "https://github.com/corpsepk/yii2-magnific-popup",
     "authors": [
         {
-            "name": "Roman Gnidenko",
-            "email": "roman444uk@mail.ru",
+            "name": "Khramov Alexsandr",
+            "email": "corpsepk@gmail.com",
             "role": "Developer"
         }
     ],
