@@ -5,7 +5,7 @@ jQuery plugin page http://dimsemenov.com/plugins/magnific-popup/
 ## Installation
 Update composer.json add to "require" section
 ```
-"corpsepk/yii2-magnific-popup" : "^0.1"
+"corpsepk/yii2-magnific-popup" : "~0.1@dev"
 ```
 
 Update composer.json add to "repositories" section
